@@ -1,10 +1,64 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Welcome to My GitHub Page</title>
-  </head>
-  <body>
-    <h1>Hello, I’m Your Name!</h1>
-    <p>This is my personal website hosted on GitHub Pages.</p>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sai Suhas Kaminedi – n8n PDF Summarizer Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>📄 AI-Powered PDF Summarizer Automation</h1>
+    <h2>Created by Sai Suhas Kaminedi</h2>
+</header>
+
+<section class="intro">
+    <p>
+        This project is an end-to-end automation built using <strong>n8n</strong>, 
+        <strong>OpenAI</strong>, <strong>Gmail</strong>, and <strong>Google Docs</strong>. 
+        It automatically extracts text from a PDF attachment received in Gmail, 
+        summarizes it using an AI model, and writes the summarized content into 
+        a Google Docs document.
+    </p>
+</section>
+
+<section class="workflow">
+    <h2>🛠 Workflow Overview</h2>
+    <img src="assets/workflow.png" alt="n8n Workflow Screenshot">
+</section>
+
+<section class="downloads">
+    <h2>📎 Project Files</h2>
+    <ul>
+        <li><a href="assets/input.pdf" download>📥 Download Input PDF</a></li>
+        <li><a href="assets/output.docx" download>📥 Download Summarized Output Document</a></li>
+    </ul>
+</section>
+
+<section class="steps">
+    <h2>⚙ How the Automation Works</h2>
+    <ol>
+        <li><strong>Gmail Trigger:</strong> Fires whenever an email arrives with a PDF attachment.</li>
+        <li><strong>Extract From File:</strong> Extracts text from the attached PDF document.</li>
+        <li><strong>OpenAI Chat Model:</strong> The extracted text is summarized using an OpenAI model.</li>
+        <li><strong>Google Docs:</strong> The summary is added into a Google Docs document.</li>
+    </ol>
+</section>
+
+<section class="tech">
+    <h2>🧰 Technologies Used</h2>
+    <ul>
+        <li>n8n Workflow Automation</li>
+        <li>OpenAI GPT Model</li>
+        <li>Google Gmail API</li>
+        <li>Google Docs API</li>
+        <li>PDF text extraction</li>
+    </ul>
+</section>
+
+<footer>
+    <p>Made with ❤️ by <strong>Sai Suhas Kaminedi</strong></p>
+</footer>
+
+</body>
 </html>
